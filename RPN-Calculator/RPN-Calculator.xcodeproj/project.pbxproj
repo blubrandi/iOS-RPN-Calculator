@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8568C3A023AA8AF70097063F /* RPN_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8568C39623AA8AF70097063F /* RPN_Calculator.framework */; };
-		8568C3A523AA8AF70097063F /* RPN_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8568C3A423AA8AF70097063F /* RPN_CalculatorTests.swift */; };
 		8568C3A723AA8AF70097063F /* RPN_Calculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8568C39923AA8AF70097063F /* RPN_Calculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,7 +26,6 @@
 		8568C39923AA8AF70097063F /* RPN_Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPN_Calculator.h; sourceTree = "<group>"; };
 		8568C39A23AA8AF70097063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8568C39F23AA8AF70097063F /* RPN-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPN-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8568C3A423AA8AF70097063F /* RPN_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPN_CalculatorTests.swift; sourceTree = "<group>"; };
 		8568C3A623AA8AF70097063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +78,6 @@
 		8568C3A323AA8AF70097063F /* RPN-CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				8568C3A423AA8AF70097063F /* RPN_CalculatorTests.swift */,
 				8568C3A623AA8AF70097063F /* Info.plist */,
 			);
 			path = "RPN-CalculatorTests";
@@ -202,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8568C3A523AA8AF70097063F /* RPN_CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
